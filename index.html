@@ -64,9 +64,47 @@
     </div>
   </section>
 
-
-
-
+  <section>
+    <h2>Simulación del Agente de IA</h2>
+    <p>Ingresa los datos de la unidad para simular la evaluación del agente de mantenimiento preventivo.</p>
+    <form>
+      <div class="grid">
+        <div class="card">
+          <label>Kilometraje actual</label><br />
+          <input type="number" placeholder="Ej. 85000" />
+        </div>
+        <div class="card">
+          <label>Kilometraje último mantenimiento</label><br />
+          <input type="number" placeholder="Ej. 67000" />
+        </div>
+        <div class="card">
+          <label>Meses desde último mantenimiento</label><br />
+          <input type="number" placeholder="Ej. 5" />
+        </div>
+        <div class="card">
+          <label>Tipo de uso</label><br />
+          <select>
+            <option>Urbano</option>
+            <option>Carretera</option>
+            <option>Mixto</option>
+          </select>
+        </div>
+        <div class="card">
+          <label>Alertas recientes</label><br />
+          <select>
+            <option>Ninguna</option>
+            <option>Pocas</option>
+            <option>Varias</option>
+          </select>
+        </div>
+        <div class="card">
+          <label>Edad de la unidad (años)</label><br />
+          <input type="number" placeholder="Ej. 6" />
+        </div>
+      </div>
+      <br />
+      <button type="button" style="padding:10px 20px; background:#CEDC00; color:#fff; border:none; border-radius:6px;">Evaluar riesgo</button>
+    </form>
 
   <section>
     <h2>Categorías de riesgo</h2>
