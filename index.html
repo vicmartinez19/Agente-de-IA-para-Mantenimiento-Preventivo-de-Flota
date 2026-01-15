@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="src/style/style.css"> 
+  <title>Agente de IA – Mantenimiento Preventivo de Flota</title>
+</head>
+<body>
+
+  <header>
+    <h1>Agente de IA para Mantenimiento Preventivo de Flota</h1>
+    <p>Evaluación inteligente del riesgo operativo de unidades de transporte</p>
+  </header>
+
+  <section>
+    <h2>Problema</h2>
+    <p>
+      El mantenimiento de flotas suele gestionarse de forma reactiva y manual,
+      lo que genera paros no programados, aumento de costos y falta de
+      priorización de unidades críticas.
+    </p>
+  </section>
+
+  <section>
+    <h2>Solución</h2>
+    <p>
+      Un agente de inteligencia artificial que evalúa el estado de cada unidad,
+      clasifica su nivel de riesgo y recomienda acciones preventivas claras
+      antes de que ocurran fallas críticas.
+    </p>
+  </section>
+
+  <section>
+    <h2>¿Cómo funciona el agente?</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Entradas</h3>
+        <ul>
+          <li>Kilometraje actual</li>
+          <li>Kilometraje del último mantenimiento</li>
+          <li>Meses desde el último servicio</li>
+          <li>Tipo de uso</li>
+          <li>Alertas recientes</li>
+          <li>Edad de la unidad</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Política</h3>
+        <p>
+          Mantenimiento preventivo cada <strong>20,000 km</strong> o
+          <strong>6 meses</strong>, lo que ocurra primero.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Salida</h3>
+        <p>
+          Clasificación del riesgo y recomendación clara de acción preventiva
+          o correctiva.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Simulación del Agente de IA</h2>
+    <p>Ingresa los datos de la unidad para simular la evaluación del agente de mantenimiento preventivo.</p>
+    <form>
+      <div class="grid">
+        <div class="card">
+          <label>Kilometraje actual</label><br />
+          <input type="number" placeholder="Ej. 85000" />
+        </div>
+        <div class="card">
+          <label>Kilometraje último mantenimiento</label><br />
+          <input type="number" placeholder="Ej. 67000" />
+        </div>
+        <div class="card">
+          <label>Meses desde último mantenimiento</label><br />
+          <input type="number" placeholder="Ej. 5" />
+        </div>
+        <div class="card">
+          <label>Tipo de uso</label><br />
+          <select>
+            <option>Urbano</option>
+            <option>Carretera</option>
+            <option>Mixto</option>
+          </select>
+        </div>
+        <div class="card">
+          <label>Alertas recientes</label><br />
+          <select>
+            <option>Ninguna</option>
+            <option>Pocas</option>
+            <option>Varias</option>
+          </select>
+        </div>
+        <div class="card">
+          <label>Edad de la unidad (años)</label><br />
+          <input type="number" placeholder="Ej. 6" />
+        </div>
+      </div>
+      <br />
+      <button type="button" style="padding:10px 20px; background:#CEDC00; color:#fff; border:none; border-radius:6px;">Evaluar riesgo</button>
+    </form>
+
+  <section>
+    <h2>Categorías de riesgo</h2>
+    <span class="risk optimo">Óptimo</span>
+    <span class="risk proximo">Próximo mantenimiento</span>
+    <span class="risk elevado">Riesgo elevado</span>
+    <span class="risk critico">Crítico – intervención inmediata</span>
+  </section>
+
+  <section>
+    <h2>Beneficios</h2>
+    <ul>
+      <li>Reducción de paros no programados</li>
+      <li>Priorización objetiva de unidades críticas</li>
+      <li>Estandarización de criterios de mantenimiento</li>
+      <li>Apoyo a la toma de decisiones operativas</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Limitaciones y siguientes pasos</h2>
+    <p><strong>Limitaciones:</strong> Ingreso manual de datos y política estándar fija.</p>
+    <p><strong>Siguientes pasos:</strong> Integración con telemetría, ERP de mantenimiento y dashboard web.</p>
+  </section>
+
+  <footer>
+    <p>Prototipo conceptual – Hackatón Traxión Tech Challenge</p>
+  </footer>
+
+</body>
+</html>
