@@ -16,3 +16,5 @@ de transporte con base en una política estándar (20,000 km o 6 meses).
 - Integración con API de IA
 - Conexión con telemetría y ERP de mantenimiento
 - Dashboard en tiempo real
+
+https://vicmartinez19.github.io/Agente-de-IA-para-Mantenimiento-Preventivo-de-Flota/
